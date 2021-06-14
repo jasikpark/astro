@@ -359,14 +359,9 @@ nav h4 {
 
 /* Scrollbar */
 
-body {
-  --scrollbar-width: 0.5rem;
-}
-
 /* width */
 ::-webkit-scrollbar {  
-  width: var(--scrollbar-width);
-  
+  width: var(0.5rem);  
 }
 
 /* Track */
