@@ -356,3 +356,38 @@ nav h4 {
 .nav-groups > li + li {
   margin-top: 2rem;  
 }
+
+/* Scrollbar */
+
+body {
+  --scrollbar-width: 0.5rem;
+}
+
+/* width */
+::-webkit-scrollbar {  
+  width: var(--scrollbar-width);
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--theme-divider);
+  border-radius: 1rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--theme-text-lighter);
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-text-light);
+}
+
+/* Buttons */
+::-webkit-scrollbar-button {
+  display: none;
+}
+/* Scrollbar - End */
