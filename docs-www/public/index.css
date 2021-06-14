@@ -352,7 +352,6 @@ nav h4 {
   overflow-x: hidden;
 }
 
-
 .nav-groups > li + li {
   margin-top: 2rem;  
 }
@@ -361,7 +360,7 @@ nav h4 {
 
 /* width */
 ::-webkit-scrollbar {  
-  width: var(0.5rem);  
+  width: 0.5rem;
 }
 
 /* Track */
