@@ -1,3 +1,7 @@
+---
+layout: ~/layouts/Main.astro
+---
+
 # Static Files
 
 ## Public folder

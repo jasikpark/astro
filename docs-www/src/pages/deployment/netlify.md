@@ -1,3 +1,7 @@
+---
+layout: ~/layouts/Main.astro
+---
+
 # Deploying with Netflify
 
 - Create a git repository (Github, Gitlab, Bitbucket)
