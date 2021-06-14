@@ -345,6 +345,14 @@ nav h4 {
   text-decoration: none;
 }
 
+.nav-groups {
+  padding-bottom: 2rem;
+  max-height: calc(100% - 3rem);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
 .nav-groups > li + li {
   margin-top: 2rem;  
 }
