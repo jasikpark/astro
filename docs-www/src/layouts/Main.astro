@@ -8,7 +8,7 @@ export let content;
 const headers = content?.astro?.headers;
 let editHref = Astro?.request?.url?.pathname?.slice(1) ?? '';
 if (editHref === '') editHref = `index`;
-editHref = `https://github.com/snowpackjs/astro/tree/main/examples/doc/src/pages/${editHref}.md`
+editHref = `https://github.com/snowpackjs/astro/tree/main/docs-www/src/pages/${editHref}.md`
 ---
 
 <html>
