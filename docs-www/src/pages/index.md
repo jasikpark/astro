@@ -1,6 +1,6 @@
 ---
 title: Hello, Documentation!
-layout: ../layouts/Main.astro
+layout: ~/layouts/Main.astro
 ---
 
 <img src="https://github.com/snowpackjs/astro/blob/main/assets/social/banner.png?raw=true" alt="Astro" width="638" height="320" >
