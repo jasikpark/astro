@@ -1,5 +1,15 @@
 # astro
 
+## 0.13.8
+
+### Patch Changes
+
+- 54c291e: Fix <script type="module"> resolution
+- 272769d: Improve asset resolution
+- 490f2be: Add support for Fragments with `<>` and `</>` syntax
+- Updated dependencies [490f2be]
+  - @astrojs/parser@0.13.8
+
 ## 0.13.7
 
 ### Patch Changes
